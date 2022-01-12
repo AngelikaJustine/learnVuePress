@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Documentation',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,26 +34,25 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Online Form',
+        link: '/onlineform/',
       },
       {
         text: 'Config',
         link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/onlineform/': [
         {
-          title: 'Guide',
+          title: 'Online Form',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'ip',
+            'spi',
+            'spkl',
+            'stpd',
           ]
         }
       ],
