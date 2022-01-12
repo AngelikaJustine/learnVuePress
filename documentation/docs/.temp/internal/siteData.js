@@ -30,24 +30,30 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Config",
-      "frontmatter": {
-        "sidebar": "auto"
-      },
+      "title": "Payroll Portal",
+      "frontmatter": {},
       "regularPath": "/config/",
       "relativePath": "config/README.md",
       "key": "v-3e491893",
-      "path": "/config/",
+      "path": "/config/"
+    },
+    {
+      "title": "IP Domain WS & IP Database",
+      "frontmatter": {},
+      "regularPath": "/config/ip.html",
+      "relativePath": "config/ip.md",
+      "key": "v-e0505750",
+      "path": "/config/ip.html",
       "headers": [
         {
           "level": 2,
-          "title": "foo",
-          "slug": "foo"
+          "title": "IP Domain WS",
+          "slug": "ip-domain-ws"
         },
         {
           "level": 2,
-          "title": "bar",
-          "slug": "bar"
+          "title": "IP Database",
+          "slug": "ip-database"
         }
       ]
     },
@@ -75,26 +81,6 @@ export const siteData = {
       "path": "/onlineform/"
     },
     {
-      "title": "IP Domain WS & IP Database",
-      "frontmatter": {},
-      "regularPath": "/onlineform/ip.html",
-      "relativePath": "onlineform/ip.md",
-      "key": "v-244e3910",
-      "path": "/onlineform/ip.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "IP Domain WS",
-          "slug": "ip-domain-ws"
-        },
-        {
-          "level": 2,
-          "title": "IP Database",
-          "slug": "ip-database"
-        }
-      ]
-    },
-    {
       "title": "SPI",
       "frontmatter": {},
       "regularPath": "/onlineform/spi.html",
@@ -115,6 +101,26 @@ export const siteData = {
       ]
     },
     {
+      "title": "IP Domain WS & IP Database",
+      "frontmatter": {},
+      "regularPath": "/onlineform/ip.html",
+      "relativePath": "onlineform/ip.md",
+      "key": "v-244e3910",
+      "path": "/onlineform/ip.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "IP Domain WS",
+          "slug": "ip-domain-ws"
+        },
+        {
+          "level": 2,
+          "title": "IP Database",
+          "slug": "ip-database"
+        }
+      ]
+    },
+    {
       "title": "SPKL",
       "frontmatter": {},
       "regularPath": "/onlineform/spkl.html",
@@ -131,6 +137,11 @@ export const siteData = {
           "level": 2,
           "title": "SPKL PT & MK",
           "slug": "spkl-pt-mk"
+        },
+        {
+          "level": 2,
+          "title": "Contoh Cuplikan Kode",
+          "slug": "contoh-cuplikan-kode"
         }
       ]
     },
@@ -162,7 +173,7 @@ export const siteData = {
         "link": "/onlineform/"
       },
       {
-        "text": "Config",
+        "text": "Payroll",
         "link": "/config/"
       }
     ],
@@ -177,6 +188,16 @@ export const siteData = {
             "spi",
             "spkl",
             "stpd"
+          ]
+        }
+      ],
+      "/config/": [
+        {
+          "title": "Payroll",
+          "collapsable": false,
+          "children": [
+            "",
+            "ip"
           ]
         }
       ]

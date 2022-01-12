@@ -38,8 +38,8 @@ module.exports = {
         link: '/onlineform/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Payroll',
+        link: '/config/',
       }
     ],
     sidebar: {
@@ -53,6 +53,16 @@ module.exports = {
             'spi',
             'spkl',
             'stpd',
+          ]
+        }
+      ],
+      '/config/': [
+        {
+          title: 'Payroll',
+          collapsable: false,
+          children: [
+            '',
+            'ip',
           ]
         }
       ],

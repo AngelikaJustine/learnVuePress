@@ -21,6 +21,14 @@ export const routes = [
     redirect: "/config/"
   },
   {
+    name: "v-e0505750",
+    path: "/config/ip.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e0505750").then(next)
+    },
+  },
+  {
     name: "v-eb11b0b8",
     path: "/",
     component: GlobalLayout,
@@ -45,19 +53,19 @@ export const routes = [
     redirect: "/onlineform/"
   },
   {
-    name: "v-244e3910",
-    path: "/onlineform/ip.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-244e3910").then(next)
-    },
-  },
-  {
     name: "v-2f6d34dc",
     path: "/onlineform/spi.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-2f6d34dc").then(next)
+    },
+  },
+  {
+    name: "v-244e3910",
+    path: "/onlineform/ip.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-244e3910").then(next)
     },
   },
   {

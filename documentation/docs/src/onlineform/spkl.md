@@ -17,3 +17,13 @@ Function create ada di BL_Transaction, insertSPKL (staff & non staff). Function 
 
 ## SPKL PT & MK
 Secara garis besar sama dengan SPKL Non Staff SMU, mungkin hanya ada beberapa perbedaan saja di create / approval nya.
+
+## Contoh Cuplikan Kode
+
+```java
+SELECT mat.material_id, mat.material_desc, COALESCE(uom.numerator, '1') 
+FROM m_material AS mat  LEFT JOIN m_uom AS uom ON mat.material_id = uom.material_id  
+WHERE ((mat.material_id LIKE '%azzura%')  OR (mat.material_desc LIKE '%azzura%')  
+OR (mat.mat_grp2 LIKE '%azzura%')  OR (mat.old_material LIKE '%azzura%')) 
+AND dist_chan = '02' AND mat_type = 'Z1FE'
+```
