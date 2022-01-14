@@ -9,24 +9,16 @@ import GlobalLayout from "D:\\PROJECT\\PERSONAL\\learnVuePress\\learnVuePress\\d
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-3e491893",
-    path: "/config/",
+    name: "v-e432f31a",
+    path: "/onlineform/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3e491893").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-e432f31a").then(next)
     },
   },
   {
-    path: "/config/index.html",
-    redirect: "/config/"
-  },
-  {
-    name: "v-e0505750",
-    path: "/config/ip.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e0505750").then(next)
-    },
+    path: "/onlineform/index.html",
+    redirect: "/onlineform/"
   },
   {
     name: "v-eb11b0b8",
@@ -41,16 +33,12 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-e432f31a",
-    path: "/onlineform/",
+    name: "v-244e3910",
+    path: "/onlineform/ip.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e432f31a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-244e3910").then(next)
     },
-  },
-  {
-    path: "/onlineform/index.html",
-    redirect: "/onlineform/"
   },
   {
     name: "v-2f6d34dc",
@@ -61,11 +49,31 @@ export const routes = [
     },
   },
   {
-    name: "v-244e3910",
-    path: "/onlineform/ip.html",
+    name: "v-22f0caa8",
+    path: "/payroll/ip.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-244e3910").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-22f0caa8").then(next)
+    },
+  },
+  {
+    name: "v-782a94b1",
+    path: "/payroll/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-782a94b1").then(next)
+    },
+  },
+  {
+    path: "/payroll/index.html",
+    redirect: "/payroll/"
+  },
+  {
+    name: "v-5bf1e578",
+    path: "/onlineform/stpd.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5bf1e578").then(next)
     },
   },
   {
@@ -74,14 +82,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-16d757d0").then(next)
-    },
-  },
-  {
-    name: "v-5bf1e578",
-    path: "/onlineform/stpd.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5bf1e578").then(next)
     },
   },
   {

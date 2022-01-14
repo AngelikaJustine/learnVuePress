@@ -39,7 +39,7 @@ module.exports = {
       },
       {
         text: 'Payroll',
-        link: '/config/',
+        link: '/payroll/',
       }
     ],
     sidebar: {
@@ -56,7 +56,7 @@ module.exports = {
           ]
         }
       ],
-      '/config/': [
+      '/payroll/': [
         {
           title: 'Payroll',
           collapsable: false,

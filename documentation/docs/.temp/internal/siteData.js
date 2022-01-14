@@ -30,32 +30,12 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Payroll Portal",
+      "title": "Introduction",
       "frontmatter": {},
-      "regularPath": "/config/",
-      "relativePath": "config/README.md",
-      "key": "v-3e491893",
-      "path": "/config/"
-    },
-    {
-      "title": "IP Domain WS & IP Database",
-      "frontmatter": {},
-      "regularPath": "/config/ip.html",
-      "relativePath": "config/ip.md",
-      "key": "v-e0505750",
-      "path": "/config/ip.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "IP Domain WS",
-          "slug": "ip-domain-ws"
-        },
-        {
-          "level": 2,
-          "title": "IP Database",
-          "slug": "ip-database"
-        }
-      ]
+      "regularPath": "/onlineform/",
+      "relativePath": "onlineform/README.md",
+      "key": "v-e432f31a",
+      "path": "/onlineform/"
     },
     {
       "title": "Home",
@@ -73,12 +53,24 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "Introduction",
+      "title": "IP Domain WS & IP Database",
       "frontmatter": {},
-      "regularPath": "/onlineform/",
-      "relativePath": "onlineform/README.md",
-      "key": "v-e432f31a",
-      "path": "/onlineform/"
+      "regularPath": "/onlineform/ip.html",
+      "relativePath": "onlineform/ip.md",
+      "key": "v-244e3910",
+      "path": "/onlineform/ip.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "IP Domain WS",
+          "slug": "ip-domain-ws"
+        },
+        {
+          "level": 2,
+          "title": "IP Database",
+          "slug": "ip-database"
+        }
+      ]
     },
     {
       "title": "SPI",
@@ -103,10 +95,10 @@ export const siteData = {
     {
       "title": "IP Domain WS & IP Database",
       "frontmatter": {},
-      "regularPath": "/onlineform/ip.html",
-      "relativePath": "onlineform/ip.md",
-      "key": "v-244e3910",
-      "path": "/onlineform/ip.html",
+      "regularPath": "/payroll/ip.html",
+      "relativePath": "payroll/ip.md",
+      "key": "v-22f0caa8",
+      "path": "/payroll/ip.html",
       "headers": [
         {
           "level": 2,
@@ -117,6 +109,29 @@ export const siteData = {
           "level": 2,
           "title": "IP Database",
           "slug": "ip-database"
+        }
+      ]
+    },
+    {
+      "title": "Payroll Portal",
+      "frontmatter": {},
+      "regularPath": "/payroll/",
+      "relativePath": "payroll/README.md",
+      "key": "v-782a94b1",
+      "path": "/payroll/"
+    },
+    {
+      "title": "STPD",
+      "frontmatter": {},
+      "regularPath": "/onlineform/stpd.html",
+      "relativePath": "onlineform/stpd.md",
+      "key": "v-5bf1e578",
+      "path": "/onlineform/stpd.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "STPD SMU",
+          "slug": "stpd-smu"
         }
       ]
     },
@@ -144,21 +159,6 @@ export const siteData = {
           "slug": "contoh-cuplikan-kode"
         }
       ]
-    },
-    {
-      "title": "STPD",
-      "frontmatter": {},
-      "regularPath": "/onlineform/stpd.html",
-      "relativePath": "onlineform/stpd.md",
-      "key": "v-5bf1e578",
-      "path": "/onlineform/stpd.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "STPD SMU",
-          "slug": "stpd-smu"
-        }
-      ]
     }
   ],
   "themeConfig": {
@@ -174,7 +174,7 @@ export const siteData = {
       },
       {
         "text": "Payroll",
-        "link": "/config/"
+        "link": "/payroll/"
       }
     ],
     "sidebar": {
@@ -191,7 +191,7 @@ export const siteData = {
           ]
         }
       ],
-      "/config/": [
+      "/payroll/": [
         {
           "title": "Payroll",
           "collapsable": false,
